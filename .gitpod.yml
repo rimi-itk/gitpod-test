@@ -1,6 +1,6 @@
 tasks:
 - init: composer install
-- command: php -S 127.0.0.1:8888 -t public
+- command: bin/console server:start 127.0.0.1:8888
 
 ports:
 - port: 8888
